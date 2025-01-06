@@ -2,6 +2,7 @@ package Starfield;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import java.awt.BorderLayout;
 
 
 public class Frame extends JFrame {
@@ -14,6 +15,9 @@ public class Frame extends JFrame {
         setLocationRelativeTo(null);
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        StarfieldCanvas canvas = new StarfieldCanvas();
+        add(canvas, BorderLayout.CENTER);
     }
 
     public static void main(String[] args) {
