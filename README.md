@@ -1,2 +1,2 @@
-# Starfield.Starfield
- Starfield.Starfield in Java
+# Starfield
+ Starfield in Java
